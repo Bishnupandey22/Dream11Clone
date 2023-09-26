@@ -6,7 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.background{
+  background-image: url("./Assests/background.webp");
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -27,7 +29,12 @@
 .App-link {
   color: #61dafb;
 }
-
+.btn{
+  background:radial-gradient(circle, rgba(16,158,56,1) 0%, rgba(9,84,30,0.8870141806722689) 100%);
+}
+.play{
+  background: linear-gradient(90deg, #FFFFFF 0%, #E3EFFF 50.93%, #FFFFFF 101.85%);;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +43,7 @@
     transform: rotate(360deg);
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
